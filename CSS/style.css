@@ -1,3 +1,62 @@
-nav {
-  width: 100vh;
+/* 
+general Style  
+*/
+
+html {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(233, 249, 255)
 }
+
+.link-style-none {
+  text-decoration: none;
+}
+
+/* 
+general style of header 
+*/
+
+.head-picture {
+  width: 100%;
+  height: 100%;
+}
+
+.head-presentation {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+h1 {
+  position: absolute;
+  color: yellow;
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+}
+
+.menu-nav {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(211, 242, 255);
+}
+
+.header-menu-list {
+  color:rgb(43, 190, 253);
+}
+
+/* 
+general style footer 
+*/
+
+.footer-menu-list {
+  list-style-type: none;
+}
+
+.footer-presentation {
+  display: flex;
+  font-size: 0.8rem;
+}
+
