@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calendrier - Team Cycliste Méziérais</title>
+  <title>Accueil - Team Cycliste Méziérais</title>
   <link rel="stylesheet" href="CSS/bootstrap.min.css">
   <link rel="stylesheet" href="CSS/style.css">
   <style>
@@ -24,22 +24,48 @@
           <a href="index.html" class="header-menu-list link-style-none">Accueil</a>
         </li>
         <li>
-          <a href="News.html" class="header-menu-list link-style-none">Actualités</a>
+          <a href="Actualite.html" class="header-menu-list link-style-none">Actualités</a>
         </li>
         <li>
-          <a href="Calendrier.html" class="header-menu-list link-style-none">Calendrier/résultat</a>
+          <a href="Calendrier.html" class="header-menu-list link-style-none">Calendrier</a>
         </li>
         <li>
           <a href="Contact.html" class="header-menu-list link-style-none">Contact</a>
         </li>
       </ul>
     </nav>
-
   </header>
+      
+  <main class="main__general">
+    <div class="">
+      <h2>Accueil</h2>
 
-  <main>
-    <h2>Calendrier</h2>
-    
+      <section class="main__presentation">
+        Bienvenue Sur le site du Team Cycliste Mezierais!
+      </section>
+
+      <section class="main__IndexSection">
+        <h3>Actualités</h3>
+        <img src="images/news.jpg" alt="Actualités" class="index__img">
+        <span>Découvrez les différentes actualités autour du club.</span> <br>
+        <a href="Actualite.html">Accédez aux actualités -></a>
+      </section>
+
+      <section class="main__IndexSection">
+        <h3>Calendrier</h3>
+        <img src="images/calendrier.jpg" alt="Actualités" class="index__img">
+        <span>Accédez aux calendrier et au programmes de courses de la saison.</span> <br>
+        <a href="Calendrier.html">Visualisez le calendrier et les résultats -></a>
+      </section>
+
+      <section class="main__IndexSection">
+        <h3>Contact</h3>
+        <img src="images/contact.jpg" alt="Actualités" class="index__img">
+        <span>Pour toute question sur le club ou nos organisations, envoyez nous un message.</span>
+        <br>
+        <a href="Contact.html">Contactez nous -></a>
+      </section>
+    </div>
   </main>
   
   <footer class="footer-presentation">

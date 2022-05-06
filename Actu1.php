@@ -24,7 +24,7 @@
           <a href="index.html" class="header-menu-list link-style-none">Accueil</a>
         </li>
         <li>
-          <a href="News.html" class="header-menu-list link-style-none">Actualités</a>
+          <a href="Actualite.html" class="header-menu-list link-style-none">Actualités</a>
         </li>
         <li>
           <a href="Calendrier.html" class="header-menu-list link-style-none">Calendrier/résultat</a>
@@ -38,26 +38,7 @@
   </header>
 
   <main>
-    <h2>Actualités</h2>
-    <section>
-      <h3>Actu 1</h3>
-      <span>Venez voir l'actu 1</span>
-    </section>
     
-    <section>
-      <h3>Actu 2</h3>
-      <span>Venez voir l'actu 2</span>
-    </section>
-    
-    <section>
-      <h3>Actu 3</h3>
-      <span>Venez voir l'actu 3</span>
-    </section>
-    
-    <section>
-      <h3>Actu 4</h3>
-      <span>Venez voir l'actu 4</span>
-    </section>
   </main>
   
   <footer class="footer-presentation">

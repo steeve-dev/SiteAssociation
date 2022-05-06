@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Accueil - Team Cycliste Méziérais</title>
+  <title>Actualités - Team Cycliste Méziérais</title>
   <link rel="stylesheet" href="CSS/bootstrap.min.css">
   <link rel="stylesheet" href="CSS/style.css">
   <style>
@@ -27,38 +27,44 @@
           <a href="News.html" class="header-menu-list link-style-none">Actualités</a>
         </li>
         <li>
-          <a href="Calendrier.html" class="header-menu-list link-style-none">Calendrier/résultat</a>
+          <a href="Calendrier.html" class="header-menu-list link-style-none">Calendrier</a>
         </li>
-        <!-- <li>
-          <a href="Resultats.html" class="header-menu-list link-style-none">Résultats</a>
-        </li> -->
         <li>
           <a href="Contact.html" class="header-menu-list link-style-none">Contact</a>
         </li>
       </ul>
     </nav>
+
   </header>
-      
+
   <main>
-    <h2>Accueil</h2>
-
-    <section>
-      Bienvenue Sur le site du Team Cycliste Mezierais !
+    <h2>Actualités</h2>
+    <section class="main__NewsSection">
+      <h3>Actu 1</h3>
+      <span>Venez voir l'actu 1</span>
+      <br>
+      <a href="Actu1.html">Venez découvrir l'actualité!</a>
     </section>
-
-    <section>
-      <h3>Actualités</h3>
-      <span>Découvrez les différentes actualités autour du club.</span>
+    
+    <section class="main__NewsSection">
+      <h3>Actu 2</h3>
+      <span>Venez voir l'actu 2</span>
+      <br>
+      <a href="#">Venez découvrir l'actualité!</a>
     </section>
-
-    <section>
-      <h3>Calendrier</h3>
-      <span>Accédez aux calendrier et au programmes de courses de la saison.</span>
+    
+    <section class="main__NewsSection">
+      <h3>Actu 3</h3>
+      <span>Venez voir l'actu 3</span>
+      <br>
+      <a href="#">Venez découvrir l'actualité!</a>
     </section>
-
-    <section>
-      <h3>Résultats</h3>
-      <span>Venez découvrir les résultats des coureurs de l'équipe.</span>
+    
+    <section class="main__NewsSection">
+      <h3>Actu 4</h3>
+      <span>Venez voir l'actu 4</span>
+      <br>
+      <a href="#">Venez découvrir l'actualité!</a>
     </section>
   </main>
   
@@ -78,7 +84,7 @@
         <a href="index.html" class="link-style-none">Accueil</a>
       </li>
       <li class="footer-menu-list">
-        <a href="News.html" class="link-style-none">Actualités</a>
+        <a href="Actualite.html" class="link-style-none">Actualités</a>
       </li>
     </ul>
     <ul>

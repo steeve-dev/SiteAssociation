@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - Team Cycliste Méziérais</title>
+  <title>Calendrier - Team Cycliste Méziérais</title>
   <link rel="stylesheet" href="CSS/bootstrap.min.css">
   <link rel="stylesheet" href="CSS/style.css">
   <style>
@@ -24,10 +24,10 @@
           <a href="index.html" class="header-menu-list link-style-none">Accueil</a>
         </li>
         <li>
-          <a href="News.html" class="header-menu-list link-style-none">Actualités</a>
+          <a href="Actualite.html" class="header-menu-list link-style-none">Actualités</a>
         </li>
         <li>
-          <a href="Calendrier.html" class="header-menu-list link-style-none">Calendrier/résultat</a>
+          <a href="Calendrier.html" class="header-menu-list link-style-none">Calendrier</a>
         </li>
         <li>
           <a href="Contact.html" class="header-menu-list link-style-none">Contact</a>
@@ -37,22 +37,60 @@
 
   </header>
 
-  <main>
-    <h2>Contact</h2>
+  <main class="section__calendar">
+    <h2>Calendrier</h2>
+    <span>Voici le calendrier de l'année 2022 des courses en bretagne :</span>
+    <section >
+      <h3>Mars</h3>
+      <div>
+        <span>Dimanche 6 Mars : </span><br>
+        <Span>course 2</Span>
+      </div>
+      <h3>Avril</h3>
+      <div>
+        <span>Course 1</span><br>
+        <Span>course 2</Span>
+      </div>
+      <h3>Mai</h3>
+      <div>
+        <span>Course 1</span><br>
+        <Span>course 2</Span>
+      </div>
+      <h3>Juin</h3>
+      <div>
+        <span>Course 1</span><br>
+        <Span>course 2</Span>
+      </div>
+      <h3>Juillet</h3>
+      <div>
+        <span>Course 1</span><br>
+        <Span>course 2</Span>
+      </div>
+      <h3>Aout</h3>
+      <div>
+        <span>Course 1</span><br>
+        <Span>course 2</Span>
+      </div>
+      <h3>Septembre</h3>
+      <div>
+        <span>Course 1</span><br>
+        <Span>course 2</Span>
+      </div>
+      <h3>Octobre</h3>
+      <div>
+        <span>Course 1</span><br>
+        <Span>course 2</Span>
+      </div>
+    </section>
 
-    <form action="get">
-      <label for="">Nom : </label>
-      <input type="text">
-      <br>
-      <label for="">Email : </label>
-      <input type="text">
-      <br>
-      <label for="">Message : </label>
-      <input type="text">
-    </form>
 
   </main>
   
+
+
+
+
+
   <footer class="footer-presentation">
     <ul>
       <li class="footer-menu-list"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">

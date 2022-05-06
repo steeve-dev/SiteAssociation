@@ -1,20 +1,24 @@
-/* 
-general Style  
-*/
-
-html {
+/* general Style */
+* {
   margin: 0;
   padding: 0;
-  background-color: rgb(233, 249, 255)
 }
 
 .link-style-none {
   text-decoration: none;
 }
 
-/* 
-general style of header 
-*/
+h2 {
+  color: blue;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+body {
+  margin: 0;
+  background-color: #E2EFFF;
+  font-size: 1.1rem;
+}
 
 .head-picture {
   width: 100%;
@@ -22,10 +26,15 @@ general style of header
 }
 
 .head-presentation {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
-
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 h1 {
@@ -36,27 +45,106 @@ h1 {
 }
 
 .menu-nav {
-  padding: 0;
+  padding: 3px;
   list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  background-color: rgb(211, 242, 255);
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #d3f2ff;
 }
 
 .header-menu-list {
-  color:rgb(43, 190, 253);
+  color: #2bbefd;
 }
 
-/* 
-general style footer 
-*/
+header {
+  margin: 0;
+}
 
 .footer-menu-list {
   list-style-type: none;
 }
 
 .footer-presentation {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-size: 0.8rem;
 }
 
+footer {
+  background-color: #ffffff;
+}
+
+.main__NewsSection {
+  border: solid 1px #2bbefd;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  font-size: 1.4rem;
+  width: 90%;
+  padding: 5px;
+  background-color: #dcdde1;
+  -webkit-box-shadow: 5px 5px 10px black;
+          box-shadow: 5px 5px 10px black;
+}
+
+.section__calendar {
+  text-align: center;
+}
+
+.form__champ {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.form__presentation {
+  border: solid 1px #2bbefd;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  font-size: 1.4rem;
+  width: 90%;
+  padding: 5px;
+  background-color: #dcdde1;
+  -webkit-box-shadow: 5px 5px 10px black;
+          box-shadow: 5px 5px 10px black;
+}
+
+.form__message {
+  width: 90%;
+}
+
+.main__IndexSection {
+  border: solid 1px #2bbefd;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  font-size: 1.4rem;
+  width: 90%;
+  padding: 5px;
+  background-color: #dcdde1;
+  -webkit-box-shadow: 5px 5px 10px black;
+          box-shadow: 5px 5px 10px black;
+}
+
+.main__presentation {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.index__img {
+  width: 90%;
+}
+/*# sourceMappingURL=style.css.map */
