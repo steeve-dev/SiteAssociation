@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calendrier - Team Cycliste Méziérais</title>
+  <title>Contact - Team Cycliste Méziérais</title>
   <link rel="stylesheet" href="CSS/bootstrap.min.css">
   <link rel="stylesheet" href="CSS/style.css">
   <style>
@@ -21,76 +21,50 @@
     <nav>
       <ul class="menu-nav">
         <li>
-          <a href="index.html" class="header-menu-list link-style-none">Accueil</a>
+          <a href="index.php" class="header-menu-list link-style-none">Accueil</a>
         </li>
         <li>
-          <a href="Actualite.html" class="header-menu-list link-style-none">Actualités</a>
+          <a href="Actualite.php" class="header-menu-list link-style-none">Actualités</a>
         </li>
         <li>
-          <a href="Calendrier.html" class="header-menu-list link-style-none">Calendrier</a>
+          <a href="Calendrier.php" class="header-menu-list link-style-none">Calendrier</a>
         </li>
         <li>
-          <a href="Contact.html" class="header-menu-list link-style-none">Contact</a>
-        </li>
+          <a href="Contact.php" class="header-menu-list link-style-none">Contact</a>
+        <php
       </ul>
     </nav>
 
   </header>
 
-  <main class="section__calendar">
-    <h2>Calendrier</h2>
-    <span>Voici le calendrier de l'année 2022 des courses en bretagne :</span>
-    <section >
-      <h3>Mars</h3>
-      <div>
-        <span>Dimanche 6 Mars : </span><br>
-        <Span>course 2</Span>
-      </div>
-      <h3>Avril</h3>
-      <div>
-        <span>Course 1</span><br>
-        <Span>course 2</Span>
-      </div>
-      <h3>Mai</h3>
-      <div>
-        <span>Course 1</span><br>
-        <Span>course 2</Span>
-      </div>
-      <h3>Juin</h3>
-      <div>
-        <span>Course 1</span><br>
-        <Span>course 2</Span>
-      </div>
-      <h3>Juillet</h3>
-      <div>
-        <span>Course 1</span><br>
-        <Span>course 2</Span>
-      </div>
-      <h3>Aout</h3>
-      <div>
-        <span>Course 1</span><br>
-        <Span>course 2</Span>
-      </div>
-      <h3>Septembre</h3>
-      <div>
-        <span>Course 1</span><br>
-        <Span>course 2</Span>
-      </div>
-      <h3>Octobre</h3>
-      <div>
-        <span>Course 1</span><br>
-        <Span>course 2</Span>
-      </div>
-    </section>
-
-
+  <main>
+    <h2>Contact</h2>
+    <div class="form__presentation">
+      <form action="" method="get">
+        <div class="form__champ">
+          <label for="surname">Nom : </label>
+          <input type="text" id="surname" placeholder="Nom">
+          <br>
+        </div>
+        <div class="form__champ">
+          <label for="name">Prénom : </label>
+          <input type="text" id="name" placeholder="Prénom">
+          <br>
+        </div>
+        <div class="form__champ">
+          <label for="email">Email : </label>
+          <input type="email" id="email" placeholder="Email">
+          <br>
+        </div>
+        <div class="form__champ">
+          <label for="message">Message : </label>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message..." class="form__message"></textarea>
+        </div class="button__form">
+          <button>Envoyer</button>
+      </form>
+    </div>
   </main>
   
-
-
-
-
-
   <footer class="footer-presentation">
     <ul>
       <li class="footer-menu-list"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
