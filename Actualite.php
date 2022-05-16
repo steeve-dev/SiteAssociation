@@ -21,16 +21,16 @@
     <nav>
       <ul class="menu-nav">
         <li>
-          <a href="index.html" class="header-menu-list link-style-none">Accueil</a>
+          <a href="index.php" class="header-menu-list link-style-none">Accueil</a>
         </li>
         <li>
-          <a href="Actualite.html" class="header-menu-list link-style-none">Actualités</a>
+          <a href="News.php" class="header-menu-list link-style-none">Actualités</a>
         </li>
         <li>
-          <a href="Calendrier.html" class="header-menu-list link-style-none">Calendrier/résultat</a>
+          <a href="Calendrier.php" class="header-menu-list link-style-none">Calendrier</a>
         </li>
         <li>
-          <a href="Contact.html" class="header-menu-list link-style-none">Contact</a>
+          <a href="Contact.php" class="header-menu-list link-style-none">Contact</a>
         </li>
       </ul>
     </nav>
@@ -38,7 +38,33 @@
   </header>
 
   <main>
+    <h2>Actualités</h2>
+    <section class="main__NewsSection">
+      <h3>Actu 1</h3>
+      <span>Venez voir l'actu 1</span>
+      <      <a href="Actu1.html">Venez découvrir l'actualité!</a>
+    </section>
     
+    <section class="main__NewsSection">
+      <h3>Actu 2</h3>
+      <span>Venez voir l'actu 2</span>
+      <br>
+      <a href="#">Venez découvrir l'actualité!</a>
+    </section>
+    
+    <section class="main__NewsSection">
+      <h3>Actu 3</h3>
+      <span>Venez voir l'actu 3</span>
+      <br>
+      <a href="#">Venez découvrir l'actualité!</a>
+    </section>
+    
+    <section class="main__NewsSection">
+      <h3>Actu 4</h3>
+      <span>Venez voir l'actu 4</span>
+      <br>
+      <a href="#">Venez découvrir l'actualité!</a>
+    </section>
   </main>
   
   <footer class="footer-presentation">
@@ -57,7 +83,7 @@
         <a href="index.html" class="link-style-none">Accueil</a>
       </li>
       <li class="footer-menu-list">
-        <a href="News.html" class="link-style-none">Actualités</a>
+        <a href="Actualite.html" class="link-style-none">Actualités</a>
       </li>
     </ul>
     <ul>

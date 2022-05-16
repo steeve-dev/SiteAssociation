@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Actualités - Team Cycliste Méziérais</title>
+  <title>Contact - Team Cycliste Méziérais</title>
   <link rel="stylesheet" href="CSS/bootstrap.min.css">
   <link rel="stylesheet" href="CSS/style.css">
   <style>
@@ -21,51 +21,48 @@
     <nav>
       <ul class="menu-nav">
         <li>
-          <a href="index.html" class="header-menu-list link-style-none">Accueil</a>
+          <a href="index.php" class="header-menu-list link-style-none">Accueil</a>
         </li>
         <li>
-          <a href="News.html" class="header-menu-list link-style-none">Actualités</a>
+          <a href="Actualite.php" class="header-menu-list link-style-none">Actualités</a>
         </li>
         <li>
-          <a href="Calendrier.html" class="header-menu-list link-style-none">Calendrier</a>
+          <a href="Calendrier.php" class="header-menu-list link-style-none">Calendrier</a>
         </li>
         <li>
-          <a href="Contact.html" class="header-menu-list link-style-none">Contact</a>
-        </li>
+          <a href="Contact.php" class="header-menu-list link-style-none">Contact</a>
+        <php
       </ul>
     </nav>
 
   </header>
 
   <main>
-    <h2>Actualités</h2>
-    <section class="main__NewsSection">
-      <h3>Actu 1</h3>
-      <span>Venez voir l'actu 1</span>
-      <br>
-      <a href="Actu1.html">Venez découvrir l'actualité!</a>
-    </section>
-    
-    <section class="main__NewsSection">
-      <h3>Actu 2</h3>
-      <span>Venez voir l'actu 2</span>
-      <br>
-      <a href="#">Venez découvrir l'actualité!</a>
-    </section>
-    
-    <section class="main__NewsSection">
-      <h3>Actu 3</h3>
-      <span>Venez voir l'actu 3</span>
-      <br>
-      <a href="#">Venez découvrir l'actualité!</a>
-    </section>
-    
-    <section class="main__NewsSection">
-      <h3>Actu 4</h3>
-      <span>Venez voir l'actu 4</span>
-      <br>
-      <a href="#">Venez découvrir l'actualité!</a>
-    </section>
+    <h2>Contact</h2>
+    <div class="form__presentation">
+      <form action="" method="get">
+        <div class="form__champ">
+          <label for="surname">Nom : </label>
+          <input type="text" id="surname" placeholder="Nom">
+          <br>
+        </div>
+        <div class="form__champ">
+          <label for="name">Prénom : </label>
+          <input type="text" id="name" placeholder="Prénom">
+          <br>
+        </div>
+        <div class="form__champ">
+          <label for="email">Email : </label>
+          <input type="email" id="email" placeholder="Email">
+          <br>
+        </div>
+        <div class="form__champ">
+          <label for="message">Message : </label>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message..." class="form__message"></textarea>
+        </div class="button__form">
+          <button>Envoyer</button>
+      </form>
+    </div>
   </main>
   
   <footer class="footer-presentation">
@@ -84,7 +81,7 @@
         <a href="index.html" class="link-style-none">Accueil</a>
       </li>
       <li class="footer-menu-list">
-        <a href="Actualite.html" class="link-style-none">Actualités</a>
+        <a href="News.html" class="link-style-none">Actualités</a>
       </li>
     </ul>
     <ul>
