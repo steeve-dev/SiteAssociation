@@ -25,7 +25,7 @@
         </li>
         <li>
           <a href="Actualite.php" class="header-menu-list link-style-none">Actualités</a>
-        <php
+        </li>
         <li>
           <a href="Calendrier.php" class="header-menu-list link-style-none">Calendrier</a>
         </li>
