@@ -16,7 +16,7 @@
   <header>
     <div class="head-presentation">
       <h1>Team Cycliste Mezierais</h1>
-      <img src="images/imagefond.jpg" alt="photo de l'équipe" class="head-picture">
+      <img src="./images/imagefond.jpg" alt="photo de l'équipe" class="head-picture">
     </div>
     <nav>
       <ul class="menu-nav">
@@ -25,7 +25,7 @@
         </li>
         <li>
           <a href="Actualite.php" class="header-menu-list link-style-none">Actualités</a>
-        <php
+        </li>
         <li>
           <a href="Calendrier.php" class="header-menu-list link-style-none">Calendrier</a>
         </li>
@@ -46,21 +46,21 @@
 
       <section class="main__IndexSection">
         <h3>Actualités</h3>
-        <img src="images/news.jpg" alt="Actualités" class="index__img">
+        <img src="./images/news.jpg" alt="Actualités" class="index__img">
         <span>Découvrez les différentes actualités autour du club.</span> <br>
         <a href="Actualite.php">Accédez aux actualités -></a>
       </section>
 
       <section class="main__IndexSection">
         <h3>Calendrier</h3>
-        <img src="images/calendrier.jpg" alt="Actualités" class="index__img">
+        <img src="./images/calendrier.jpg" alt="Actualités" class="index__img">
         <span>Accédez aux calendrier et au programmes de courses de la saison.</span> <br>
         <a href="Calendrier.php">Visualisez le calendrier et les résultats -></a>
       </section>
 
       <section class="main__IndexSection">
         <h3>Contact</h3>
-        <img src="images/contact.jpg" alt="Actualités" class="index__img">
+        <img src="./images/contact.jpg" alt="Actualités" class="index__img">
         <span>Pour toute question sur le club ou nos organisations, envoyez nous un message.</span>
         <br>
         <a href="Contact.php">Contactez nous -></a>
