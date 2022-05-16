@@ -16,7 +16,7 @@
   <header>
     <div class="head-presentation">
       <h1>Team Cycliste Mezierais</h1>
-      <img src="images/imagefond.jpg" alt="photo de l'équipe" class="head-picture">
+      <img src="imagefond.jpg" alt="photo de l'équipe" class="head-picture">
     </div>
     <nav>
       <ul class="menu-nav">
