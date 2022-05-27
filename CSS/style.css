@@ -159,6 +159,10 @@ footer {
   margin-bottom: 25px;
 }
 
+.link-article {
+  color: #2bbefd;
+}
+
 .section__calendar {
   text-align: center;
 }
