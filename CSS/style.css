@@ -12,6 +12,7 @@ h2 {
   color: blue;
   text-align: center;
   font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
@@ -89,6 +90,15 @@ h1 {
 
 .header-menu-list {
   color: #2bbefd;
+  padding: 4px;
+}
+
+.header-menu-list:hover {
+  color: yellow;
+  background-color: #2bbefd;
+  border-radius: 10px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 @media screen and (min-width: 1024px) {
@@ -99,6 +109,10 @@ h1 {
 
 header {
   margin: 0;
+}
+
+.main__IndexSection {
+  margin-bottom: 100px;
 }
 
 .footer-menu-list {
@@ -134,6 +148,17 @@ footer {
           box-shadow: 5px 5px 10px black;
 }
 
+.CyclePicture {
+  width: 75%;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.ActuArticle {
+  margin-bottom: 25px;
+}
+
 .section__calendar {
   text-align: center;
 }
@@ -161,6 +186,18 @@ footer {
 
 .form__message {
   width: 90%;
+}
+
+.button__form {
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.button__form:hover {
+  color: white;
+  background-color: black;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
 }
 
 .main__IndexSection {
