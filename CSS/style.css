@@ -209,8 +209,8 @@ footer {
 .button__form:hover {
   color: white;
   background-color: black;
-  -webkit-transition: all 0.6s;
-  transition: all 0.6s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .contact__form {
