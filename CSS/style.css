@@ -176,7 +176,7 @@ footer {
 .form__champ {
   margin-bottom: 15px;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .form__presentation {
@@ -215,8 +215,21 @@ footer {
 
 .contact__form {
   border-radius: 10px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding: 2px;
+  width: 60%;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .contact__form {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact__form {
+    width: 35%;
+  }
 }
 
 .main__IndexSection {
